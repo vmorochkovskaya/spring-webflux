@@ -31,19 +31,19 @@ Spring-webflux and R2DBC progect.
 mvn clean install
 ```
 
-3. **Database Setup:**
+## Database Setup
    1. Create **testdb_spring_webflux** schema
    2. Create **post** table:
    ```
    use testdb_spring_webflux;
    CREATE TABLE post (post_id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255));
    ```
-4. **Running the Application**
+## Running the Application
 ```
 mvn spring-boot:run
 ```
 
-5. **API Endpoints**
+## API Endpoints
    #### 1. Create Post
 - **Endpoint:** `POST /api/v1/post/{postname}`
 - **Example:** `POST http://localhost:8080/api/v1/post/dsadd`
