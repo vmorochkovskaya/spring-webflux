@@ -44,13 +44,13 @@ mvn spring-boot:run
 ```
 
 ## API Endpoints
-   #### 1. Create Post
+#### 1. Create Post
 - **Endpoint:** `POST /api/v1/post/{postname}`
 - **Example:** `POST http://localhost:8080/api/v1/post/dsadd`
-   #### 2. Search Posts
+#### 2. Search Posts
 - **Endpoint:** `GET /api/v1/post?q=...`
-   #### 3. Get All Posts And Save
+#### 3. Get All Posts And Save
 - **Endpoint:** `GET /api/v1/posts`
-   #### 4. Get All Posts And Save with backpressure
+#### 4. Get All Posts And Save with backpressure
 - **Endpoint:** `GET /api/v1/posts/back`
 
