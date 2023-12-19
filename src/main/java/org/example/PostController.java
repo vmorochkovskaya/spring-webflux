@@ -20,7 +20,6 @@ public class PostController {
     private final PostClient postClient;
     private List<Post> accumulatedPosts;
 
-
     @GetMapping("/back")
     public Flux<Post> getPostsBackPressure() {
         accumulatedPosts = new ArrayList<>();
